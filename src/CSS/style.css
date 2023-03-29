@@ -81,7 +81,7 @@ body {
     align-items: center;
     overflow-x: hidden;
     width: 100vw;
-    background-image: url(../imagens/bgbody.jpg);
+    background-image: url(../src/imagens/bgbody.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
