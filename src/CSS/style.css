@@ -78,7 +78,7 @@ body {
     width: 100vw;
     background-image: url(../imagens/bgbody.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 main {
