@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubunto:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Merriweather:ital,wght@1,700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+
+
 
 @keyframes animated-title {
     0% {
@@ -67,7 +69,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'MuseoModerno', cursive, sans-serif;
+    font-family: 'Alkatra', sans-serif;
 }
 
 html {
@@ -260,6 +262,7 @@ h1.tit-project {
     color: rgb(255, 123, 52);
     text-shadow: 0 0 3px #000000;
     background-image: url(../imagens/fundo-titproject.png);
+    font-family: 'Open Sans', sans-serif;
     background-repeat: no-repeat;
     background-size: contain;
     padding: 5px;
