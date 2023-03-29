@@ -81,7 +81,7 @@ body {
     align-items: center;
     overflow-x: hidden;
     width: 100vw;
-    background-image: url(https://github.com/RobertWilly-RW/first-project/blob/2c6efacd0639415963535a3724f3f8019d7b347f/src/imagens/bgbody.jpg);
+    background-image: url(../imagens/bgbody.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
