@@ -655,7 +655,7 @@ footer {
 
     h1.tit-banner {
         position: absolute;
-        font-size: 12pt;
+        font-size: 14pt;
         width: 60vw;
         margin: 60px 0px 0px 5px;
         display: inline-block;
@@ -716,7 +716,7 @@ footer {
 
 }
 
-@media (min-width: 768px) and (max-width: 1080px) {
+@media (min-width: 768px) and (max-width: 1081px) {
     header.cabecalho {
         background-color: rgba(0, 0, 0, 0.9);
     }
@@ -757,7 +757,7 @@ footer {
 
     h1.tit-banner {
         position: absolute;
-        font-size: 12pt;
+        font-size: 14pt;
         width: 60vw;
         margin: 60px 0px 0px 5px;
         display: inline-block;
