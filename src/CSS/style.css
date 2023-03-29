@@ -716,11 +716,20 @@ footer {
 
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 1080px) {
+    header.cabecalho {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    header img.logo-nav {
+        height: 8vh;
+
+    }
+
     ul.list-nav {
         position: absolute;
         display: inline-block;
-        top: 12vh;
+        top: 7vh;
         right: 0;
         width: 50vw;
         height: 88vh;
@@ -730,47 +739,81 @@ footer {
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
-
-
     }
 
     .list-nav.active {
         transform: translateX(0%);
     }
 
-
     .mobile-menu {
         display: block;
         margin-right: 20px;
     }
 
-
-    .banner img {
-        height: 50vw;
+    div.banner {
+        width: 100vw;
+        height: 80vh;
     }
 
-    div.container-textBaner {
-        margin-top: 170px;
-
+    h1.tit-banner {
+        position: absolute;
+        font-size: 12pt;
+        width: 60vw;
+        margin: 60px 0px 0px 5px;
+        display: inline-block;
+        white-space: nowrap;
+        z-index: 1;
     }
 
-    div.position {
-        margin-top: 0px;
-        margin-left: 30px;
+    div.banner img {
+        position: absolute;
+        margin-top: 40px;
+        height: 28vh;
+        right: 0;
+        z-index: 0;
     }
 
-    .tit-banner {
-        width: 50vw;
-        font-size: 17pt;
-        margin-top: 0px;
-    }
+    div.position h2 {
+        width: 80vw;
+        margin: 150px auto;
+        font-size: 10pt;
 
-    .subTitle {
-        width: 50vw;
-        font-size: 16pt;
     }
 
     span#nome {
-        font-size: 20pt;
+        font-size: 17pt;
     }
+
+    div.container-textBaner {
+        margin-top: 50px;
+        width: 100vw;
+    }
+
+    div.position {
+        width: 100vw;
+        margin: 0px;
+    }
+
+    div.about {
+        width: 96vw;
+    }
+
+    div.rotate img {
+        height: 10vh;
+    }
+
+    div.ft {
+        width: 100%;
+        position: absolute;
+        background-image: url(../imagens/foto-fundo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 60vh;
+
+    }
+
+    div.text-about {
+        margin-top: 250px;
+    }
+
 }
