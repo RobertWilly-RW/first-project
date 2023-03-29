@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
 
-
-
 @keyframes animated-title {
     0% {
         box-shadow: 0 0 5px rgb(255, 123, 52);
@@ -28,9 +26,6 @@
     100% {
         text-shadow: 0 0 0px #f77e04;
     }
-
-
-
 }
 
 @keyframes floating-logo {
@@ -60,8 +55,6 @@
         transform: rotate(20deg);
     }
 }
-
-
 
 * {
     padding: 0;
@@ -106,14 +99,11 @@ header.cabecalho {
 
 nav.nav-bar {
     display: flex;
-
-
 }
 
 .mobile-menu {
     cursor: pointer;
     display: none;
-
 }
 
 .mobile-menu div {
@@ -122,7 +112,6 @@ nav.nav-bar {
     background: #04F7F7;
     border-radius: 5px;
     margin: 8px;
-
 }
 
 header img.logo-nav {
@@ -131,12 +120,10 @@ header img.logo-nav {
     margin-left: 30px;
 }
 
-
 ul.list-nav {
     display: flex;
     justify-content: flex-end;
 }
-
 
 li {
     display: flex;
@@ -159,12 +146,7 @@ div.banner {
     width: 100vw;
     display: grid;
     grid-template-columns: 50% 50%;
-
-
-
 }
-
-
 
 div.container-textBaner {
     margin-top: 180px;
@@ -179,7 +161,6 @@ div.position {
 }
 
 h1.tit-banner {
-
     background-color: rgba(0, 0, 0, 0.7);
     padding: 5px;
     border-radius: 10px;
@@ -205,7 +186,6 @@ h2.subTitle {
     color: #04F7F7;
     border-radius: 10px;
     box-shadow: 0 0 4px #04F7F7;
-
 }
 
 span#nome {
@@ -213,8 +193,6 @@ span#nome {
     text-shadow: 0 0 2px rgb(29, 253, 253);
     letter-spacing: 5px;
     color: #04F7F7;
-
-
 }
 
 span.dev {
@@ -242,12 +220,8 @@ a.bt-linkedin:hover {
 
 /* ==========section projects=========== */
 
-
 section.projects {
     height: 100vh;
-
-
-
 }
 
 div.title-project {
@@ -295,8 +269,6 @@ div.container-cards {
 
 /* ==========section about=========== */
 
-
-
 div.about {
     width: 90vw;
     margin: 100px auto;
@@ -329,10 +301,7 @@ div.logo img.logo01 {
     animation-name: floating-logo;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-
-
 }
-
 
 div.logo img.logo02 {
 
@@ -340,7 +309,6 @@ div.logo img.logo02 {
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
-
 }
 
 div.logo img.logo03 {
@@ -357,7 +325,6 @@ div.rotate {
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-
 
 div.ft {
     background-image: url(../imagens/foto-fundo.png);
@@ -385,7 +352,6 @@ div.text-about p {
 
 span.skills {
     color: rgb(255, 123, 52);
-
 }
 
 /* ==============footer=============== */
@@ -400,15 +366,12 @@ footer {
 }
 
 .container-footer {
-
     margin: 0 auto;
 }
 
 /* ==============RESPONSIVE=============== */
 
 @media screen and (max-width: 375px) {
-
-
 
     header.cabecalho {
         background-color: rgba(0, 0, 0, 0.9);
@@ -433,16 +396,11 @@ footer {
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
         z-index: 2;
-
     }
 
     ul.list-nav.active {
         transform: translateX(0%);
-
-
-
     }
-
 
     .mobile-menu {
         display: block;
@@ -452,8 +410,6 @@ footer {
     div.banner {
         width: 100vw;
         height: 70vh;
-
-
     }
 
     h1.tit-banner {
@@ -473,7 +429,6 @@ footer {
         height: 24vh;
         right: 0;
         z-index: 0;
-
     }
 
     div.position {
@@ -496,13 +451,9 @@ footer {
         font-size: 15pt;
     }
 
-
     div.container-textBaner {
         margin-top: 50px;
         width: 100vw;
-
-
-
     }
 
     div.position {
@@ -512,11 +463,7 @@ footer {
 
     div.about {
         width: 96vw;
-
-
     }
-
-
 
     div.rotate img {
         height: 10vh;
@@ -580,7 +527,6 @@ footer {
         transform: translateX(0%);
     }
 
-
     .mobile-menu {
         display: block;
         margin-right: 20px;
@@ -589,8 +535,6 @@ footer {
     div.banner {
         width: 100vw;
         height: 60vh;
-
-
     }
 
     h1.tit-banner {
@@ -610,7 +554,6 @@ footer {
         height: 22vh;
         right: 0;
         z-index: 0;
-
     }
 
     div.position {
@@ -633,9 +576,7 @@ footer {
         font-size: 15pt;
     }
 
-
     div.container-textBaner {
-
         margin-top: 50px;
         width: 100vw;
 
@@ -653,8 +594,6 @@ footer {
 
     }
 
-
-
     div.rotate img {
         height: 10vh;
     }
@@ -664,8 +603,6 @@ footer {
         background-image: url(../imagens/foto-fundo.png);
         background-repeat: no-repeat;
         background-position: center;
-
-
     }
 
     div.text-about {
@@ -676,7 +613,6 @@ footer {
         padding: 2px;
     }
 }
-
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     header.cabecalho {
@@ -701,14 +637,11 @@ footer {
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
-
-
     }
 
     .list-nav.active {
         transform: translateX(0%);
     }
-
 
     .mobile-menu {
         display: block;
@@ -718,8 +651,6 @@ footer {
     div.banner {
         width: 100vw;
         height: 80vh;
-
-
     }
 
     h1.tit-banner {
@@ -738,15 +669,12 @@ footer {
         height: 26vh;
         right: 0;
         z-index: 0;
-
     }
-
 
     div.position h2 {
         width: 80vw;
         margin: 150px auto;
         font-size: 10pt;
-
 
     }
 
@@ -754,13 +682,9 @@ footer {
         font-size: 17pt;
     }
 
-
     div.container-textBaner {
         margin-top: 50px;
         width: 100vw;
-
-
-
     }
 
     div.position {
@@ -849,9 +773,4 @@ footer {
     span#nome {
         font-size: 20pt;
     }
-
-
-
-
-
 }
