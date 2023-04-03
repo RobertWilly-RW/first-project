@@ -144,6 +144,7 @@ a.link-nav:hover {
 
 div.banner {
     width: 100vw;
+    height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -155,7 +156,6 @@ div.container-textBaner {
 
 div.position {
     position: absolute;
-
     margin-left: 70px;
     z-index: 0;
 }
@@ -246,7 +246,7 @@ h1.tit-project {
 
 div.container-cards {
     height: 70vh;
-    width: 96vw;
+    width: 90vw;
     margin: 50px auto;
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 5px rgb(255, 123, 52);
