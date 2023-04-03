@@ -427,7 +427,7 @@ div.icons {
     h1.tit-banner {
        
         position: absolute;
-        font-size: 16pt;
+        font-size: 10pt;
        
         margin: 40px 0px 0px 25px;
         display: inline-block;
@@ -438,7 +438,7 @@ div.icons {
     div.banner img {
         position: absolute;
         margin-top: 40px;
-        height: 26vh;
+        height: 24vh;
         right: 0;
         z-index: 0;
     }
