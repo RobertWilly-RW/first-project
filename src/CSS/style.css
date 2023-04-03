@@ -421,7 +421,7 @@ div.icons {
 
     div.position {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: 70px;
     z-index: 0;
     }
@@ -457,7 +457,7 @@ div.icons {
     div.position h2 {
         width: 90vw;
         margin: 200px auto;
-        font-size: 8pt;
+        font-size: 10pt;
     }
 
     a.bt-linkedin {
