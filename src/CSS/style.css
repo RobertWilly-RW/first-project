@@ -156,6 +156,7 @@ div.container-textBaner {
 
 div.position {
     position: absolute;
+    margin-top: 40px;
     margin-left: 70px;
     z-index: 0;
 }
