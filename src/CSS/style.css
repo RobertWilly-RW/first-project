@@ -93,7 +93,7 @@ header.cabecalho {
     z-index: 1;
     width: 100vw;
     box-shadow: 0 0 5px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
 
 }
 
@@ -357,21 +357,33 @@ span.skills {
 /* ==============footer=============== */
 
 footer {
-    height: 20vh;
+    
+    justify-content: center;
     width: 100vw;
+    height: 35vh;
     background-color: #e0e0e0;
-    color: #555;
+    color: #333333;
     text-align: center;
     font-size: 14px;
 }
 
 .container-footer {
-    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    
 }
+div.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+}
+
 
 /* ==============RESPONSIVE=============== */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
 
     header.cabecalho {
         background-color: rgba(0, 0, 0, 0.9);
@@ -495,325 +507,4 @@ footer {
 
 }
 
-@media (min-width: 376px) and (max-width: 575.98px) {
 
-    header.cabecalho {
-        background-color: rgba(0, 0, 0, 0.9);
-    }
-
-    header img.logo-nav {
-        height: 7vh;
-
-    }
-
-    ul.list-nav {
-        position: absolute;
-        display: flex;
-        top: 7vh;
-        right: 0;
-        width: 50vw;
-        height: 80vh;
-        background-color: rgba(0, 0, 0, 0.9);
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;
-        z-index: 2;
-
-    }
-
-    ul.list-nav.active {
-        transform: translateX(0%);
-    }
-
-    .mobile-menu {
-        display: block;
-        margin-right: 20px;
-    }
-
-    div.banner {
-        width: 100vw;
-        height: 60vh;
-    }
-
-    h1.tit-banner {
-        max-width: 208px;
-        position: absolute;
-        font-size: 9pt;
-        width: 60vw;
-        margin: 80px 0px 0px 25px;
-        display: inline-block;
-        white-space: nowrap;
-        z-index: 1;
-    }
-
-    div.banner img {
-        position: absolute;
-        margin-top: 60px;
-        height: 22vh;
-        right: 0;
-        z-index: 0;
-    }
-
-    div.position {
-        height: 60vh;
-    }
-
-    div.position h2 {
-        width: 90vw;
-        margin: 250px auto;
-        font-size: 12pt;
-    }
-
-    a.bt-linkedin {
-        color: #000;
-        padding: 10px;
-        background-color: rgb(255, 123, 52);
-    }
-
-    span#nome {
-        font-size: 15pt;
-    }
-
-    div.container-textBaner {
-        margin-top: 50px;
-        width: 100vw;
-
-
-
-    }
-
-    div.position {
-        width: 100vw;
-        margin: 0px;
-    }
-
-    div.about {
-        width: 96vw;
-
-    }
-
-    div.rotate img {
-        height: 10vh;
-    }
-
-    div.ft {
-        width: 94%;
-        background-image: url(../imagens/foto-fundo.png);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    div.text-about {
-        box-shadow: 0 0 5px #04F7F7;
-        border-radius: 5px;
-        margin: auto;
-        width: 90vw;
-        padding: 2px;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-    header.cabecalho {
-        background-color: rgba(0, 0, 0, 0.9);
-    }
-
-    header img.logo-nav {
-        height: 8vh;
-
-    }
-
-    ul.list-nav {
-        position: absolute;
-        display: inline-block;
-        top: 7vh;
-        right: 0;
-        width: 50vw;
-        height: 88vh;
-        background-color: rgba(0, 0, 0, 0.9);
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .list-nav.active {
-        transform: translateX(0%);
-    }
-
-    .mobile-menu {
-        display: block;
-        margin-right: 20px;
-    }
-
-    div.banner {
-        width: 100vw;
-        height: 80vh;
-    }
-
-    h1.tit-banner {
-        position: absolute;
-        font-size: 14pt;
-        width: 60vw;
-        margin: 60px 0px 0px 5px;
-        display: inline-block;
-        white-space: nowrap;
-        z-index: 1;
-    }
-
-    div.banner img {
-        position: absolute;
-        margin-top: 40px;
-        height: 28vh;
-        right: 0;
-        z-index: 0;
-    }
-
-    div.position h2 {
-        width: 80vw;
-        margin: 150px auto;
-        font-size: 10pt;
-
-    }
-
-    span#nome {
-        font-size: 17pt;
-    }
-
-    div.container-textBaner {
-        margin-top: 50px;
-        width: 100vw;
-    }
-
-    div.position {
-        width: 100vw;
-        margin: 0px;
-    }
-
-    div.about {
-        width: 96vw;
-    }
-
-    div.rotate img {
-        height: 10vh;
-    }
-
-    div.ft {
-        width: 100%;
-        position: absolute;
-        background-image: url(../imagens/foto-fundo.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 60vh;
-
-    }
-
-    div.text-about {
-        margin-top: 250px;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 1080px) {
-    header.cabecalho {
-        background-color: rgba(0, 0, 0, 0.9);
-    }
-
-    header img.logo-nav {
-        height: 8vh;
-
-    }
-
-    ul.list-nav {
-        position: absolute;
-        display: inline-block;
-        top: 7vh;
-        right: 0;
-        width: 50vw;
-        height: 88vh;
-        background-color: rgba(0, 0, 0, 0.9);
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .list-nav.active {
-        transform: translateX(0%);
-    }
-
-    .mobile-menu {
-        display: block;
-        margin-right: 20px;
-    }
-
-    div.banner {
-        width: 100vw;
-        height: 80vh;
-    }
-
-    h1.tit-banner {
-        position: absolute;
-        font-size: 14pt;
-        width: 60vw;
-        margin: 60px 0px 0px 5px;
-        display: inline-block;
-        white-space: nowrap;
-        z-index: 1;
-    }
-
-    div.banner img {
-        position: absolute;
-        margin-top: 40px;
-        height: 28vh;
-        right: 0;
-        z-index: 0;
-    }
-
-    div.position h2 {
-        width: 80vw;
-        margin: 150px auto;
-        font-size: 10pt;
-
-    }
-
-    span#nome {
-        font-size: 17pt;
-    }
-
-    div.container-textBaner {
-        margin-top: 50px;
-        width: 100vw;
-    }
-
-    div.position {
-        width: 100vw;
-        margin: 0px;
-    }
-
-    div.about {
-        width: 96vw;
-    }
-
-    div.rotate img {
-        height: 10vh;
-    }
-
-    div.ft {
-        width: 100%;
-        position: absolute;
-        background-image: url(../imagens/foto-fundo.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 60vh;
-
-    }
-
-    div.text-about {
-        margin-top: 250px;
-    }
-
-}
