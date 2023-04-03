@@ -156,7 +156,6 @@ div.container-textBaner {
 
 div.position {
     position: absolute;
-    margin-top: 40px;
     margin-left: 70px;
     z-index: 0;
 }
@@ -418,6 +417,13 @@ div.icons {
     .mobile-menu {
         display: block;
         margin-right: 20px;
+    }
+
+    div.position {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 70px;
+    z-index: 0;
     }
 
     div.banner {
