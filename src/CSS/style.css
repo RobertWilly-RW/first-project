@@ -496,7 +496,7 @@ div.icon p{
         background-image: url(../imagens/foto-fundo.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
 
     }
 
