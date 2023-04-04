@@ -376,8 +376,9 @@ footer {
 div.icons {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 80vw;
+    
+    
+    width: 100vw;
     
 }
 div.icon p{
