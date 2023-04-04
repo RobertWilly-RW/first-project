@@ -382,6 +382,7 @@ div.icons {
 }
 div.icon p{
     color: #000000;
+    white-space: nowrap;
     
 }
 
